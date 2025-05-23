@@ -94,7 +94,14 @@ This project is open source! If you have suggestions or enhancements, feel free 
 
 For questions or collaboration:
 - [GitHub](https://github.com/Mariam-abdelfttah)
-- You can also open an Issue directly in the repository.
+- [GitHub](https://github.com/Omnia-adel1)
+-Mariam Elrafei — Lead Developer & Researcher
+Worked on model implementation, data preprocessing, and evaluation metrics.
+
+-Omnia Adel — Data Engineer & Analyst
+Handled dataset preparation, performance visualization, and results analysis.
+
+
 
 ---
 
