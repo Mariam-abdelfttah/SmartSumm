@@ -1,0 +1,7 @@
+transformers
+datasets
+rouge-score
+sumy
+nltk
+matplotlib
+pandas
