@@ -93,7 +93,8 @@ This project is open source! If you have suggestions or enhancements, feel free 
 ## 📬 Contact
 
 For questions or collaboration:
--Mariam [GitHub](https://github.com/Mariam-abdelfttah)
+
+- Mariam [GitHub](https://github.com/Mariam-abdelfttah)
 - Omnia [GitHub](https://github.com/Omnia-adel1)
   
 -Mariam Elrafei — Lead Developer & Researcher
