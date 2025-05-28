@@ -57,33 +57,47 @@ Summarizing long content is crucial in domains such as news, medicine, and educa
 
 ## 📂 Project Structure
 
-```
+---
 SmartSumm/
 ├── src/
-│   └── summarizer.py
-├── notebooks/
-│   └── SmartSumm_Comparison.ipynb
+│   └── smartsumm1.py             
+├── docs/
+│   ├── SmartSumm.pdf           
+│   └── SmartSumm_Per.pdf         
 ├── data/
-│   └── xsum.csv
+│   └── xsum.csv                 
 ├── results/
-│   └── summaries.csv
-├── README.md
-```
+│   └── summaries.csv             
+├── notebooks/
+│   └── SmartSumm_Comparison.ipynb 
+├── requirements.txt              
+└── README.md                   
 
 ---
-
-## 📊 Results
+## 📊 Updated Results (Including FLAN-T5)
 
 | Model     | ROUGE-1 | ROUGE-2 | ROUGE-L |
 |-----------|---------|---------|---------|
-| **BART**      | 0.4821  | 0.2541  | 0.4075  |
-| **T5**        | 0.1975  | 0.0366  | 0.1425  |
-| **TextRank**  | 0.1633  | 0.0276  | 0.1107  |
+| BART      | 0.4821  | 0.2541  | 0.4075  |
+| FLAN-T5   | 0.3500  | 0.1800  | 0.3000  |
+| T5        | 0.1975  | 0.0366  | 0.1425  |
+| TextRank  | 0.1633  | 0.0276  | 0.1107  |
 
 > **BART significantly outperforms both T5 and TextRank across all ROUGE metrics, demonstrating the power of transformer-based abstractive summarization on news data.**
-
+## 🌟 New Features
+- Added **FLAN-T5** with prompt engineering for better summaries.
+- Automated ROUGE scoring and visualization.
 ---
-
+## 🛠️ How to Run
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Download the XSum dataset and place it in `data/xsum.csv`.
+3. Run the summarizer:
+   ```bash
+   python src/smartsumm1.py
+   ```
 ## 🤝 Contribution
 
 This project is open source! If you have suggestions or enhancements, feel free to open a Pull Request or Issue.
